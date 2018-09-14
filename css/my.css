@@ -1,0 +1,18 @@
+body{
+	background-color: aqua;
+	width: 450px;
+	height: 450px;
+}
+p{
+	color: red;
+}
+#p{
+	color: green;
+}
+.pre{
+	size: 20;
+}
+#image{
+	width: 300px;
+	height: 300px;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			table {
+				background-color: #00FFFF;
+			}
+		</style>
+		<script type="text/javascript">
+			function Onclick() {
+				alert("点击button")
+			}
+		</script>
+	</head>
+
+	<body>
+
+		<!--表格 cellpadding:单元格内文字与边框距离  cellspacing：单元格之间的距离  frame:表格四周的边框-->
+		<table border="2" cellpadding="5" cellspacing="5">
+			<!--border 表格加边框-->
+			<caption>表格标题</caption>
+			<!--标题-->
+			<tr>
+				<td>学生</td>
+				<td>学科</td>
+				<td>成绩</td>
+			</tr>
+			<tr>
+				<td>张三</td>
+				<td>语文</td>
+				<td>100</td>
+			</tr>
+		</table>
+		<table border="2" cellpadding="5" cellspacing="5" frame="below">
+			<!--border 表格加边框-->
+			<caption>表格标题</caption>
+			<!--标题-->
+			<tr>
+				<td>学生</td>
+				<td>学科</td>
+				<td>成绩</td>
+			</tr>
+			<tr>
+				<td>张三</td>
+				<td>语文</td>
+				<td>100</td>
+			</tr>
+		</table>
+		<!--有序列表-->
+		<ol style="background-color: #FF0000;">
+			<li>语文</li>
+			<li>数学</li>
+		</ol>
+		<!--无序列表-->
+		<ul style="background-color: #008000;">
+			<li>语文</li>
+			<li>数学</li>
+		</ul>
+		<dl style="background-color: bisque;">
+			<dd>语文</dd>
+			<dt>数学</dt>
+		</dl>
+
+		<!--块元素 
+			<div> 元素是块级元素，它是可用于组合其他 HTML 元素的容器。
+				 <span> 元素是内联元素，可用作文本的容器。
+		-->
+		<span>
+			<p>pppppppppppppppp</p>
+			<p1>p1p1p1p1p1p1p1p1</p1>
+		</span>
+		<div>
+			>
+		</div>
+		<div>
+			<form action="a_iframe.html">
+				<label>名字：</label><input list="names"/><br />
+				<datalist id="names">
+					<option value="张三"></option>
+					<option value="李四"></option>
+				</datalist>
+				<label>second name：</label><input value="只读" type="text" readonly="true"/><br />
+				<input name="xuanxiang" value="A" type="radio" checked="true" />
+				<input name="xuanxiang" value="B" type="radio" />
+				<input type="submit" value="submit" />
+			</form>
+			<select>
+				<option value="a">A</option>
+				<option value="b" selected="true">B</option>
+				<option value="c">C</option>
+			</select>
+			<br />
+			<textarea name="msg" cols="10" rows="5"></textarea><br />
+			<button type="button" onclick="onclick()">Button</button>
+		</div>
+	</body>
+
+</html>
